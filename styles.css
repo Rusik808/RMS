@@ -777,6 +777,7 @@ footer .contact .info i {
   margin-bottom: 10px;
 }
 .about-section p {
+  text-align: justify;
   padding-top: 50px;
   margin-top: -20px;
 }
@@ -798,13 +799,18 @@ footer .contact .info i {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 20px;
   text-align: left;
 }
 
 .text-content {
+  text-align: justify;
   flex: 1;
   margin-top: -50px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 .text-content p {
   padding-top: 20px;
